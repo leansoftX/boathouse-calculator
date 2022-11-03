@@ -4,7 +4,7 @@ orchestrator:
   version: 3
 workspace:
   dev-container:
-    service-name: smartide-vmlc-vscode-allinone-dev
+    service-name: smartide-vscode-allinone-dev
 
     ports:
       tools-webide-vscode: 6800
@@ -19,5 +19,5 @@ workspace:
       - npm config set registry https://registry.npmmirror.com
       - npm install
 
-  kube-deploy-files: "allinone-vscode-vmlc-k8s-deployment.yaml" 
-  docker-compose-file: "allinone-vscode-vmlc-docker-compose.yaml"
+  kube-deploy-files: "allinone-vscode-k8s-deployment.yaml" 
+  docker-compose-file: "allinone-vscode-docker-compose.yaml"
