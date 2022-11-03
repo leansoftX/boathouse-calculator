@@ -1,6 +1,6 @@
 version: "3"
 services:
-  smartide-vmlc-vscode-allinone-dev:
+  smartide-vscode-allinone-dev:
     image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-allinone-v2-vscode:latest
     restart: always
     environment:
