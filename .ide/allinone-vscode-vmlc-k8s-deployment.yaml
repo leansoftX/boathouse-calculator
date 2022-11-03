@@ -15,7 +15,7 @@ spec:
         - name: LOCAL_USER_PASSWORD
           value: root123
         - name: MARKETPLACE_URL
-          value: https://marketplace.smartide.cn
+          value: https://marketplace.southeastasia.cloudapp.azure.com/
       name: smartide-vmlc-vscode-allinone-dev
       image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-allinone-v2-vscode-vmlc:latest
       command: ["/sbin/init"]
