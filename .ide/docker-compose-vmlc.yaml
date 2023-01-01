@@ -2,7 +2,7 @@
 version: "3"
 services:
   boathouse-calculator-dev:
-    image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-allinone-v2-vscode-vmlc:latest
+    image: registry.cn-hangzhou.aliyuncs.com/smartide/smartide-node-v2-vscode-vmlc:latest
     runtime: sysbox-runc
     hostname: dev-container
     restart: always
