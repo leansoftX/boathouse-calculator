@@ -4,8 +4,6 @@
 Write the follow code in a file called `model.tests.js`:
 
 ```javascript
-
-```javascript
 import './model.js'
 import { deepEqual } from 'assert';
 
